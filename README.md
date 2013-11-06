@@ -1,15 +1,13 @@
-Welcome to the Social network for Kids
+The social network for Kids
 =====================================
 
 This project is based on play framework. Go to its main page for more information.
 
-The first thing we have to do is installing sbt - simple built tool.
+The first thing we have to do is installing `sbt` - simple built tool.
 
-Visit [scala-sbt][http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html] for install instructions.
+Visit [scala sbt](http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html) for install instructions. After installing sbt, run follow command:
 
-After installing sbt, run follow command:
-
-   $ sbt run
+      $ sbt run
 
 This command will automatically install play framework and then compile and run webserver for you.
 
