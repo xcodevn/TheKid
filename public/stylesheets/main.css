@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    //border: solid 1px #ccc;
+    font-weight:300;
+    font-family:"Open sans"
+}
+#welcome-up {
+    background-color:#4679bd;
+    overflow:hidden;
+    color:white;
+    line-height:40px;
+    box-shadow: 1px 5px 10px #ccc;
+}
+#welcome-up input:focus {
+    background-color:#ffa;
+}
+#welcome-up form div {
+    padding:0;
+    padding-right:5px;
+}
+#welcome-up input {
+    margin-bottom:2px;
+    border-radius: 2px;
+    border:0;
+    height:25px;
+}
+#name {
+    font-weight:400;
+    font-size:18px;
+}
+#welcome-down {
+    margin-top: 50px;
+    height: 310px;
+}
+#prmsg {
+    font-size:18px;
+    text-align:center;
+}
+#register-title {
+    font-size:20px;
+    margin:0;
+    padding:0;
+    margin-top:20px;
+    color: #55f;
+    font-weight:500;
+}
+#idhr {
+    margin:0;
+    padding:0;
+    margin-bottom:20px;
+    margin-top:10px;
+}
+#footer {
+    margin:10px;
+    border-top: solid 1px #ddd;
+    padding:10px;
+    text-align:center;
+    clear:;
+}
