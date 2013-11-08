@@ -1,32 +1,49 @@
 @(message: String)
 @main("Welcome to Play"){
-    <div class="row" id="main" style="border:1px solid #ddd;padding:10px;">
-        <div class="span12">
-            <div class="row">
-                <div class="span6">
-                    Hello
+<div id="welcome-down">
+    <div id="prmsg" class="col-sm-5 col-md-5">Mạng nhà trọ, nơi bạn có thể tìm kiếm chỗ trọ thích hợp nhất cho mình.
+        <br/>
+        <br />Bạn muốn cho thuê nhà? Đến với <b>PHÒNG TRỌ.vn</b> để có thể tìm được người thuê phù hợp trong thời gian nhanh nhất.
+        <br />
+        <br />Bạn muốn chia sẻ phòng trò với người hợp ý mình, giảm bớt gánh nặng tài chính, không thể bỏ qua dịch vụ của chúng tôi :)</div>
+    <div class="col-sm-6 col-sm-offset-1 col-md-6 col-md-offset-1">
+        <div id="register-title" class="row">Đăng ký ngay!</div>
+        <hr id="idhr" />
+        <div clas="row">
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label for="inputUsername" class="col-sm-4 control-label">Username</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="inputUsername" placeholder="Username">
+                    </div>
                 </div>
-                <div class="span6">
-                     <h3>Dang ki ngay</h3>
-                        <table>
-                            <tr>
-                                <td>Email</td>
-                            </tr>
-                            <tr>
-                                <td><input type="text"></td>
-                            </tr>
-                            <tr>
-                                <td>Password</td>
-                            </tr>
-                            <tr>
-                                <td><input type="password"></td>
-                            </tr>
-                            <tr>
-                                <td><button class="btn">Sign Up</button></td>
-                            </tr>
-                        </table>   
+
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-4 control-label">Email</label>
+                    <div class="col-sm-8">
+                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                    </div>
                 </div>
-            </div>
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-4 control-label">Password</label>
+                    <div class="col-sm-8">
+                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputRePassword" class="col-sm-4 control-label">Confirm password</label>
+                    <div class="col-sm-8">
+                        <input type="password" class="form-control" id="inputRePassword" placeholder="Confirm password">
+                    </div>
+                </div>
+                    
+                <div class="form-group">
+                    <div class="col-sm-offset-4 col-sm-8">
+                        <button type="submit" class="btn btn-primary">Register</button>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
+</div>
 }

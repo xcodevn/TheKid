@@ -8,7 +8,7 @@ object ApplicationBuild extends Build {
 
   val appDependencies = Seq(
     "org.webjars" %% "webjars-play" % "2.1.0-3"  exclude("org.scala-stm", "scala-stm_2.10.0") exclude("play", "*"), 
-    "org.webjars" % "bootstrap" % "2.1.1"
+    "org.webjars" % "bootstrap" % "3.0.1"
   )
 
   val main = Project(appName, appVersion, appDependencies).settings()
