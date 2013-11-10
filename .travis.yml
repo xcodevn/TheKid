@@ -5,6 +5,9 @@ scala:
 jdk:
     - oraclejdk7
 
+before_script:
+    - sbt compile
+
 notifications:
     email: 
       - xcodevn@gmail.com 
