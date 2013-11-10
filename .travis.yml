@@ -6,6 +6,7 @@ jdk:
     - oraclejdk7
 
 notifications:
-    email: xcodevn@gmail.com
-    email: ctt.bk.hcmut2009@gmail.com 
-    email: dttngan91@gmail.com 
+    email: 
+      - xcodevn@gmail.com 
+      - ctt.bk.hcmut2009@gmail.com 
+      - dttngan91@gmail.com 
